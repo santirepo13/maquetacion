@@ -96,21 +96,51 @@ footer img {
 	
 	}
 
+
+img {
+	width: 100%;
+}
+
 .floatright img {
-	width: 20rem;
+	width: 23.75rem;
 	display: flex;
 	float: right;
-	padding: 2vh;
-	
-	
+	padding: 0rem;
+	border: solid thick black;
+	margin: 1rem;
 }
 
 
 .floatleft img {
-	width: 20rem;
+	margin: 1rem;
+	width: 23.75rem;
 	display: flex;
 	float: left;
-	padding: 2vh;
+	padding: 0rem;
+	border: solid thick black;
+	
 	
 	 }
+
+main h2 {
+	padding: 0.5rem;
+}
+
+main .starter {
+	
+	font-size: 1.3em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+}
+
+main p {
+	padding: 0.5rem;
+	
+}
+
+.clean {
+	clear:both;
+}
+
 
