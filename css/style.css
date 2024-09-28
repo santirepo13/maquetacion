@@ -39,6 +39,7 @@ header .encabezado {
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+	z-index: 1;
 }
 
 nav {text-align: center;
@@ -143,4 +144,27 @@ main p {
 	clear:both;
 }
 
+
+
+.absolute {
+	max-width: 40.625rem;
+	width: 100%;
+	margin: 1.563rem 1.563rem;
+	background-color: rgba(7,7,7,0.45);
+	
+}
+
+
+.absolute .fondo {
+	
+background-image: url("../images/universidades.png");
+	background-size: 100vh;
+	padding-top: 55%;
+	position: relative;
+
+	
+	
+	
+	
+}
 
